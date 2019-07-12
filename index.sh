@@ -2,7 +2,7 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
-alias ssh-finxos-test='ssh fzheng@212.64.40.40';
-alias daily='code ~/finxos/daily-works'
+alias daily='code ~/finxos/daily-works';
+alias ssh-test-tss='ssh -T git@gitlab.finxos.com';
 
 unset ROOT_PATH;
